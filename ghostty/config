@@ -1,0 +1,13 @@
+theme = Catppuccin Mocha
+cursor-style = block
+macos-titlebar-style = hidden
+shell-integration = zsh
+copy-on-select = clipboard
+quit-after-last-window-closed = true
+font-family = "JetBrainsMonoNL Nerd Font Mono Bold"
+font-size = 14
+font-thicken = true
+window-colorspace = "display-p3"
+background-opacity = 0.8
+config-file = keybindings
+window-padding-x = 2,4

@@ -1,0 +1,8 @@
+--theme="Catppuccin-macchiato"
+
+--style="numbers,changes,header"
+
+# Use italic text on the terminal (not supported on all terminals)
+--italic-text=always
+
+

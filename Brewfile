@@ -18,10 +18,16 @@ tap "shaunsingh/sfmono-nerd-font-ligaturized"
 tap "wouterdebie/repo"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
+# Orbstack - docker replacement
+brew "orbstack"
 # New file format for still image compression
 brew "jpeg-xl"
+# ncdu
+brew "ncdu"
 # Codec library for encoding and decoding AV1 video streams
 brew "aom"
+# Raycast install
+cask  "raycast"
 # Record and share terminal sessions
 brew "asciinema"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -46,8 +52,6 @@ brew "cairo"
 brew "csshx"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# Isolated development environments using Docker
-brew "docker-compose"
 # Programming language for highly scalable real-time systems
 brew "erlang"
 # Functional metaprogramming aware language built on Erlang VM
@@ -122,8 +126,6 @@ brew "lazygit"
 brew "lf"
 # C library of Git core methods that is re-entrant and linkable
 brew "libgit2@1.6"
-# Linux virtual machines
-brew "lima"
 # Next-gen compiler infrastructure
 brew "llvm"
 # Polyglot runtime manager (asdf rust clone)
@@ -131,7 +133,7 @@ brew "mise"
 # Clean C library for processing UTF-8 Unicode data
 brew "utf8proc"
 # Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
+brew "neovim", args: ["HEAD"]
 # RSS/Atom feed reader for text terminals
 brew "newsboat"
 # Port scanning utility for large networks
@@ -144,16 +146,19 @@ brew "onefetch"
 brew "openjdk"
 # Highly capable, feature-rich programming language
 brew "perl"
-# Tool for managing OCI containers and pods
-brew "podman"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.12"
+brew "hyperfine"
+brew "python"
 # Generic machine emulator and virtualizer
 brew "qemu"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+brew "wallpaper"
+cask "discord"
+cask "obs"
+cask "obsidian"
 # Terminal based presentation tool
 brew "slides"
 # Terminal-based client for Spotify
@@ -161,6 +166,7 @@ brew "spotify-tui"
 # Add a public key to a remote machine's authorized_keys file
 brew "ssh-copy-id"
 # Cross-shell prompt for astronauts
+brew "neofetch"
 brew "starship"
 # State of the art linter for the Go programming language
 brew "staticcheck"
@@ -222,6 +228,8 @@ brew "nats-io/nats-tools/nats"
 brew "wouterdebie/repo/i2cssh"
 # GPU-accelerated terminal emulator
 cask "alacritty"
+# HammerSpoon
+cask "hammerspoon"
 # Automatic tiling window manager similar to xmonad
 cask "amethyst"
 # Universal database tool and SQL client
@@ -248,6 +256,7 @@ cask "kitty"
 cask "podman-desktop"
 # Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
+
 go "github.com/air-verse/air"
 go "github.com/bufbuild/buf-language-server/cmd/bufls"
 go "github.com/cloudflare/cfssl/cmd/cfssl"
